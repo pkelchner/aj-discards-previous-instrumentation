@@ -1,0 +1,9 @@
+target/
+_ajdump/
+
+*.iml
+.idea/
+
+.settings/
+.project
+.classpath

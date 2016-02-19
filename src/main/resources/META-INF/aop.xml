@@ -1,0 +1,9 @@
+<aspectj>
+    <weaver options="-debug -verbose">
+        <dump within="example..*" beforeandafter="true"/>
+    </weaver>
+
+    <aspects>
+        <aspect name="example.TraceAspect" />
+    </aspects>
+</aspectj>
